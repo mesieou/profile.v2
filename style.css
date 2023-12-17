@@ -1,0 +1,141 @@
+body {
+  background-color: grey;
+  color: black;
+  font-family: 'Roboto', sans-serif;
+}
+#profile-pic {
+  width: 12%;
+  border-radius: 150px;
+}
+
+h1 {
+  color: rgb(100, 100, 100);
+  font-family: 'Preahvihear', sans-serif;
+}
+
+h2 {
+  color: rgb(100, 100, 100, 0.5);
+}
+.button-pink {
+  background: coral;
+  padding: 12px;
+  border-radius: 4px;
+  box-shadow: 0 1px 1px coral;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+@media (max-width: 1980px) {
+  .general-container {
+    width: 1000px;
+    margin: 0 auto;
+  }
+  #list-on-the-left {
+    text-align: left;
+    margin-bottom: 6%;
+    margin-left: 150px;
+  }
+}
+
+@media (max-width: 1740px) {
+  .general-container {
+    width: 1000px;
+    margin: 0 auto;
+  }
+  #list-on-the-left {
+    text-align: left;
+    margin-bottom: 6%;
+    margin-left: 150px;
+  }
+}
+
+@media (max-width: 1480px) {
+  .general-container {
+    width: 900px;
+    margin: 0 auto;
+  }
+  #list-on-the-left {
+    text-align: left;
+    margin-bottom: 6%;
+    margin-left: 100px;
+  }
+}
+
+@media (max-width: 1240px) {
+  .general-container {
+    width: 800px;
+    margin: 0 auto;
+  }
+  #list-on-the-left {
+    text-align: left;
+    margin-bottom: 6%;
+    margin-left: 50px;
+  }
+}
+
+
+@media (max-width: 960px) {
+  .general-container {
+    width: 700px;
+    margin: 0 auto;
+  }
+  #list-on-the-left {
+    text-align: left;
+    margin-bottom: 6%;
+  }
+}
+
+
+@media (max-width:720px) {
+  .general-container {
+    width: 500px;
+    margin: 0 auto;
+  }
+  #list-on-the-left {
+    text-align: left;
+    margin-bottom: 6%;
+  }
+}
+
+@media (max-width: 540px) {
+  .general-container {
+    width: 300px;
+    margin: 0 auto;
+  }
+  #list-on-the-left {
+    text-align: left;
+    margin-bottom: 6%;
+  }
+}
+
+
+.containers {
+    background: white;
+    padding: 30px;
+    border-radius: 4px;
+    box-shadow: 0 10px 30px rgba(300,300,300, 0.4);
+    text-align: center;
+    margin-top: 3%;
+}
+
+#text-padding-down {
+  margin-bottom: 6%;
+}
+
+#list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+  list-style: none;
+}
+.fa-lg {
+  font-size: 3.25em;
+  line-height: .05em;
+  vertical-align: -0.075em;
+  margin-top: 30px;
+  color: rgb(100, 100, 100);
+}
+
+a:hover {
+  background-color: black;
+}
