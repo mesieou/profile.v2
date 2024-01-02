@@ -4,22 +4,60 @@
     <meta name="description" content="Juan is a Ruby developer with a financial background">
     <meta charset="utf-8">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.2/css/all.css">
-    <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Preahvihear&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./application.css">
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <div class="general-container">
       <div class="containers">
-        <h1>Juan here mate!</h1>
-        <img src="images/RT&J-19.jpg" id="profile-pic" alt="Juan photo in a gray tuxedo dress">
-        <p> After 9 years in Australia, I am living the dream of doing what I want... <strong>😄 Coding 💻 😄</strong></p>
-        <p id="text-padding-down">Check out where I learnt how to code:</p>
-        <a class="button-pink"  href="https://www.lewagon.com" target="_blank">Le Wagon</a>
+        <div class="d-flex align-items-center">
+          <img src="images/RT&J-19.jpg" id="profile-pic" alt="Juan photo in a gray tuxedo dress">
+          <div>
+            <h1 class="text-left px-3">Juan here mate!</h1>
+            <p class="text-left px-3"> After 9 years in Australia, I am living the dream of doing what I want... <strong>😄 Coding 💻 😄</strong></p>
+          </div>
+          <div class="d-flex flex-column">
+            <p id="text-padding-down">Check out where I learnt how to code:</p>
+            <a class="button-pink"  href="https://www.lewagon.com" target="_blank">Le Wagon</a>
+          </div>
+        </div>
       </div>
       <div class="containers">
-        <h2>Projects</h2>
+        <h2>My principles</h2>
+        <div class="panels d-flex">
+          <div class="panel panel1 closed">
+            <p class="hidden top">Keep</p>
+            <p>It</p>
+            <p class="hidden top">Simple</p>
+          </div>
+          <div class="panel panel2 closed">
+            <p class="hidden top">Don't</p>
+            <p>Repeat</p>
+            <p class="hidden top">Yourself</p>
+          </div>
+          <div class="panel panel3 closed">
+            <p class="hidden top">Learn</p>
+            <p>To</p>
+            <p class="hidden top">Code</p>
+          </div>
+          <div class="panel panel4 closed">
+            <p class="hidden top">Trust</p>
+            <p>The</p>
+            <p class="hidden top">Process</p>
+          </div>
+          <div class="panel panel5 closed">
+            <p class="hidden top">Work</p>
+            <p>With</p>
+            <p class="hidden top">Buddies</p>
+          </div>
+        </div>
+      </div>
+      <div class="containers">
+        <h2>Projects(In progress)</h2>
         <h3>Wolf Minute</h3>
         <p>An application that helps you schedule meetings by:</p>
         <ul id="list-on-the-left">
@@ -38,5 +76,6 @@
         </ul>
       </div>
     </div>
+    <script type="module" src="./lib/panels.js"></script>
   </body>
 </html>
